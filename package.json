@@ -13,6 +13,9 @@
   "author": "tugenhua",
   "license": "ISC",
   "repository": "https://github.com/tugenhua0707/performance-tool",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
