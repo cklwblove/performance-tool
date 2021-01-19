@@ -12,3 +12,14 @@
 <img src="https://raw.githubusercontent.com/tugenhua0707/react-collection/master/images/57.jpg" /> <br />
 
 <a href="https://www.cnblogs.com/tugenhua0707/p/10982332.html">了解更多，请看这篇文章</a> <br />
+
+### window 全局用法
+
+```javascript
+ <script src="./performance.js"></script>
+ <script type="text/javascript">
+    window.onload = function() {
+      window.performanceTool.getPerformanceTiming();
+    };
+  </script>
+```
