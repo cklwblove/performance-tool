@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-      performance: './src/index.js'
+      performance: './lib/index.js'
     },
     output: {
         path: path.join(__dirname, 'dist'),
